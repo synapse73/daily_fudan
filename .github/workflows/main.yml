@@ -62,7 +62,7 @@ jobs:
          # pip install -r requirements.txt
       - name: Run sign
         run: |
-
+          pip install -r requirements.txt
           python3 ./dailyFudan.py '${{ secrets.FUDAN }}'
           
           
