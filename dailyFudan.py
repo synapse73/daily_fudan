@@ -36,9 +36,7 @@ def set_q(iterO):
     return res
 
 
-import requests
 import urllib3
-import SSL
 class CustomHttpAdapter (requests.adapters.HTTPAdapter):
     # "Transport adapter" that allows us to use custom ssl_context.
 
